@@ -1,13 +1,6 @@
 import requests, sys
 
 
-"""
-    python trello_console_client.py                                         |   Show all the lists and tasks
-    python trello_console_client.py create_column name_of_column            |   Create new list
-    python trello_console_client.py create_list name-of-task name-of-list   |   Create a new task in the list
-    python trello_console_client.py move name-of-task name-of-list          |   Move your task in the list
-"""
-
 # Fill the gaps
 auth_params = {
     'key': '__________',
