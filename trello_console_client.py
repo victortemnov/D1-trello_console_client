@@ -11,8 +11,6 @@ base_url = 'https://api.trello.com/1/{}'
 board_id = '__________' # for example UhfndmK in https://api.trello.com/1/boards/UhfndmK/lists
 
 
-
-
 def read():
     column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
 
