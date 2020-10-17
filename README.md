@@ -2,7 +2,7 @@
 
 ## Required parameters
 
-### For correct work in the trello_console_client.py file you need to specify your trello key and trello token, as well as the id of your board
+### For correct work in *the trello_console_client.py* file you need to specify your ***trello key*** and ***trello token***, as well as the id of your board
 
 ```cli
 py trello_console_client.py (show all columns and tasks)
