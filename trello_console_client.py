@@ -3,12 +3,12 @@ import requests, sys
 
 # Fill the gaps
 auth_params = {
-    'key': '__________',
-    'token': '__________'
+    'key': '___YOUR_KEY___',
+    'token': '___YOUR_TOKEN___'
 }
 
 base_url = 'https://api.trello.com/1/{}'
-board_id = '__________' # for example UhfndmK in https://api.trello.com/1/boards/UhfndmK/lists
+board_id = '___YOUR_BOARD_ID___' # for example UhfndmK in https://api.trello.com/1/boards/UhfndmK/lists
 
 
 def read():
