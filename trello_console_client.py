@@ -8,7 +8,7 @@ auth_params = {
 }
 
 base_url = 'https://api.trello.com/1/{}'
-board_id = '___YOUR_BOARD_ID___' # for example UhfndmK in https://api.trello.com/1/boards/UhfndmK/lists
+board_id = '___YOUR_BOARD_ID___'
 
 
 def read():
