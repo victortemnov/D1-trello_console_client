@@ -2,7 +2,7 @@
 
 ## Required parameters: for correct work in *the trello_console_client.py* file you need to specify your *trello key* and *trello token*, as well as the *id* of your board
 
-# Commands:
+## Commands:
 
 
 ```cli
